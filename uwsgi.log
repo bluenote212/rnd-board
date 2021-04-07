@@ -1,0 +1,39 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Mar  8 09:39:43 2021] ***
+compiled with version: 9.3.0 on 30 November 2020 08:32:55
+os: Linux-5.8.0-43-generic #49~20.04.1-Ubuntu SMP Fri Feb 5 09:57:56 UTC 2021
+nodename: vmg-prometheus
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 10
+current working directory: /home/B180093/anaconda3/envs/telechips
+detected binary path: /home/B180093/anaconda3/bin/uwsgi
+your processes number limit is 39627
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address telechips.sock fd 3
+Python version: 3.6.3 |Anaconda, Inc.| (default, Oct 13 2017, 12:05:00)  [GCC 7.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55825e4336d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 267964)
+spawned uWSGI worker 1 (pid: 267965, cores: 1)
+spawned uWSGI worker 2 (pid: 267966, cores: 1)
+spawned uWSGI worker 3 (pid: 267967, cores: 1)
+spawned uWSGI worker 4 (pid: 267968, cores: 1)
+spawned uWSGI worker 5 (pid: 267969, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket telechips.sock removed.

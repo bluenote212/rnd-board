@@ -1,0 +1,5 @@
+key: user_id, value: B190646
+key: user_key, value: b190646
+
+jira:issue_updated
+issue_closed
